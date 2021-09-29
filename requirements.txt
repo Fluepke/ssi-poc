@@ -1,0 +1,7 @@
+pynacl
+msgpack
+flask
+base58
+pygments
+qrcode
+pillow
