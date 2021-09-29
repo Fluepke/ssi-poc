@@ -32,7 +32,9 @@ To prove her identity, *Alice* and *Bob* perform the following steps:
 Since the identity of *Bob* is not established and only 'Direct connection' is shown (or some attacker controlled data in the ID Wallet app), *Alice* cannot verify with whom she is sharing her data.
 An attacker, *Mallory*, could replace the QR code by performing a *machine-in-the-middle* attack or by replacing a QR code in real world in order to steal personal data. Please note, that we do not demonstrate a mitm-attack here.
 
-The problem (and it's implications) are known and have been the topic of [multiple](https://github.com/decentralized-identity/didcomm-messaging/issues/41) Github [issues](https://github.com/hyperledger/aries-rfcs/issues/473) and [public discussions](https://lists.hyperledger.org/g/indy/topic/31208810), but apparently has not been solved.
+The problem (and its implications) are known and have been the topic of [multiple](https://github.com/decentralized-identity/didcomm-messaging/issues/41) Github [issues](https://github.com/hyperledger/aries-rfcs/issues/473) and [public discussions](https://lists.hyperledger.org/g/indy/topic/31208810), but apparently has not been solved.
+
+**Impact**: As a user, one cannot make sure, who receives one's data. The original recipient might have been replaced by a malicious one. A malicious recipient might use the leaked sensitive private data to sell it or to attempt identity theft. Future use-cases might include for example credit card data (see the Lissi demo).
 
 ## Demo Time
 > We are using the [Lissi wallet](https://lissi.id/) because it is the same (standardized) technology like the [ID Wallet](https://www.bundesregierung.de/breg-de/suche/e-id-1962112) and it seemd more stable to us.
