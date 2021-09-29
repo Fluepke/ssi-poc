@@ -18,7 +18,7 @@ To prove her identity, *Alice* and *Bob* perform the following steps:
 1. *Bob* provides *Alice* a QR code, transporting:
     1. A public key (*Bob* generates and holds the correspending private key)
     2. A list of attributes, he wants to know from *Alice*
-    3. A reference to the document containing those attributes ([`CRED_DEF`](https://hyperledger-indy.readthedocs.io/projects/node/en/latest/requests-new.html?highlight=CRED_DEF#claim-def))
+    3. A reference to the type of document containing those attributes ([`CRED_DEF`](https://hyperledger-indy.readthedocs.io/projects/node/en/latest/requests-new.html?highlight=CRED_DEF#claim-def))
     4. A label for his identity, that is displayed (and not verified) in the [ID Wallet](https://www.bundesregierung.de/breg-de/suche/e-id-1962112) app. In the [Lissi wallet](https://lissi.id/) only 'Direct connection' is shown.
     5. A callback URL (`serviceEndpoint`)
 2. *Alice* scans the QR code and accepts the connection request
