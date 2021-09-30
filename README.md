@@ -37,6 +37,8 @@ The problem (and its implications) are known and have been the topic of [multipl
 **Impact**: As a user, one cannot make sure, who receives one's data. The original recipient might have been replaced by a malicious one. A malicious recipient might use the leaked sensitive private data to sell it or to attempt identity theft. Future use-cases might include for example credit card data (see the Lissi demo).
 
 ## Demo Time
+**Video (german)**: [Link](https://twitter.com/fluepke/status/1443488146054914050)
+
 > We are using the [Lissi wallet](https://lissi.id/) because it is the same (standardized) technology like the [ID Wallet](https://www.bundesregierung.de/breg-de/suche/e-id-1962112) and it seemd more stable to us.
 > For our demo, we are using the document `XmfRzF36ViQg8W8pHot1FQ:3:CL:5614:Base-ID`, some example digital identity issued at [https://lissi.id/demo](https://lissi.id/demo).
 
