@@ -1,4 +1,4 @@
-""" Crypto neccessary for packing and unpacking a message.
+""" Crypto necessary for packing and unpacking a message.
 
     Adapted from BC Gov's Indy Catalyst Agent.
     Borrowed at this point in history:
